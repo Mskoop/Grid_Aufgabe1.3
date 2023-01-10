@@ -1,0 +1,33 @@
+
+ * {
+    margin: 0; padding: 0; }
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2rem 30rem 2rem;
+    padding: 1rem; /*optional*/
+   }
+
+div {
+    border: 1px solid white;
+    color: white;
+}
+
+.head {background: blue;
+    grid-column: 1/5;
+}
+
+.side { background: green;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.main {background: red;
+    grid-column: 2/5;
+    grid-row: 2/3;
+}
+
+.foot {background: #830830;
+    grid-column: 1/5;
+}
